@@ -1,0 +1,26 @@
+{
+    "name": "InputButton",
+    "version": "0.0.1",
+    "description": "C++ library for PlatformIO, model of an input button with debouncing and event model",
+    "keywords": "input, button, debounce",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sporniket/InputButton"
+    },
+    "authors": [
+        {
+            "name": "David SPORN",
+            "url": "https://github.com/sporniket",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "exclude": [
+            ".gitignore",
+            "*.gz"
+        ]
+    },
+    "license": "GPL-3.0-or-later",
+    "frameworks": "*",
+    "platforms": "*"
+}
