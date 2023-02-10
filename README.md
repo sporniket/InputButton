@@ -14,6 +14,8 @@ Initial publishing, extracted from working code.
 
 ## Typical application
 
+_See also [the showcase/maintenance project](https://github.com/sporniket/demo-task-gpio-button-led)_
+
 ```cpp
 #include "InputButton.hpp"
 // etc...
@@ -41,7 +43,7 @@ void onTimerInput() {
 
 void setup() {
     //...
-    theButton.withDebouncer(DEBOUNCER_TYPICAL)->withListener(onInputButtonEvent) ;
+    okButton.withDebouncer(DEBOUNCER_TYPICAL)->withListener(onInputButtonEvent) ;
     //...
     //setup timer interrupt
     //...
